@@ -1,0 +1,50 @@
+body {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+h1, h2 {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+}
+
+.div-class {
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.inner-div-class {
+  justify-content: center;
+  margin: 20px;
+}
+
+ul {
+  display: grid;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+
+li:hover {
+  color: rgb(60, 170, 243);
+}
+
+.nav-ul-class {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+  margin-left: 10px;
+  outline: 0 !important;
+  margin-bottom: 5px;
+}
+
+.btn:hover {
+  background-color: rgb(178, 226, 245);
+}
